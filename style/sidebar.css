@@ -1,0 +1,51 @@
+/* .picture-scrollbar {
+  margin-top: 50px;
+  height: 100px;
+  display: grid;
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+} */
+
+div.picture-scrollbar {
+  background-color: rgba(220, 230, 241);
+  overflow: auto;
+  white-space: nowrap;
+  transition: background-color 1s;
+}
+
+div.picture-scrollbar img {
+  display: inline-block;
+  color: rgb(34, 59, 204);
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+div.picture-scrollbar img:hover {
+  background-color: white;
+  border-radius: 4px;
+}
+
+.pictures {
+  height: 150px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  justify-content: start;
+  /* Hides vertical scrollbar for .pictures */
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  justify-content: space-between;
+}
+
+.pic1 {
+  cursor: pointer;
+  vertical-align: center;
+  -ms-transform: translateY(-5%);
+  transform: translateY(5%);
+}
+

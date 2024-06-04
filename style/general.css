@@ -1,0 +1,23 @@
+img {
+  width: 100px;
+}
+
+
+body {
+  font-family: Sans-Serif;
+
+}
+
+.bottom-page {
+  width: 100%;
+  position: static;
+  bottom: 0;
+
+}
+
+.img-test {
+  position: relative;
+  display: block;
+  width: 100%;
+  z-index: -1;
+}
