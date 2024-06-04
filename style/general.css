@@ -10,7 +10,7 @@ body {
 
 .bottom-page {
   width: 100%;
-  position: static;
+  position: absolute;
   bottom: 0;
 
 }
