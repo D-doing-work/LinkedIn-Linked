@@ -5,7 +5,8 @@ img {
 
 body {
   font-family: Sans-Serif;
-  background-image: url('/bg-spring.png');
+  background-image: url('../bg-spring.png');
+  background-size: auto;
 }
 
 .bottom-page {
