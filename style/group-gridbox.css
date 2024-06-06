@@ -5,11 +5,13 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   column-gap: 20px;
   row-gap: 40px;
+
 }
 
-.groupbox  {
+.groupbox {
   border-style: solid;
   margin: 20px 10px;
+  width: 290px;
   height: 200px;
 }
 
